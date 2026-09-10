@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>マジックトーク — プライバシーポリシー・利用規約</title>
+  <style>
+    :root {
+      --bg: #F9F8F6;
+      --text: #333333;
+      --text-muted: rgba(51, 51, 51, 0.62);
+      --rule: rgba(51, 51, 51, 0.12);
+      --accent: rgba(51, 51, 51, 0.88);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "YuGothic", "Noto Sans JP", sans-serif;
+      font-size: 15px;
+      line-height: 1.85;
+      letter-spacing: 0.02em;
+      color: var(--text);
+      background-color: var(--bg);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .wrap {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 4.5rem 1.75rem 6rem;
+    }
+
+    @media (min-width: 640px) {
+      .wrap {
+        padding: 6rem 2.5rem 8rem;
+      }
+    }
+
+    header {
+      margin-bottom: 4.5rem;
+      padding-bottom: 3rem;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 0.7rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1.25rem;
+    }
+
+    h1 {
+      font-size: clamp(1.6rem, 4vw, 2rem);
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      line-height: 1.35;
+      margin-bottom: 1rem;
+    }
+
+    .lede {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.8;
+      max-width: 34em;
+    }
+
+    section {
+      margin-bottom: 4rem;
+    }
+
+    section:last-of-type {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      margin-bottom: 1.75rem;
+      padding-bottom: 0.65rem;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    h3 {
+      font-size: 0.88rem;
+      font-weight: 600;
+      margin-top: 2rem;
+      margin-bottom: 0.85rem;
+      color: var(--accent);
+    }
+
+    h3:first-of-type {
+      margin-top: 0;
+    }
+
+    p, li {
+      margin-bottom: 1rem;
+      color: var(--text);
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      position: relative;
+      padding-left: 1.15em;
+    }
+
+    ul li::before {
+      content: "・";
+      position: absolute;
+      left: 0;
+      color: var(--text-muted);
+    }
+
+    .meta {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--rule);
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 3rem;
+      border-top: 1px solid var(--rule);
+      text-align: center;
+    }
+
+    footer p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 1.25rem;
+    }
+
+    .contact-link {
+      display: inline-block;
+      font-size: 0.95rem;
+      color: var(--accent);
+      text-decoration: none;
+      letter-spacing: 0.02em;
+      border-bottom: 1px solid rgba(51, 51, 51, 0.25);
+      padding-bottom: 0.15em;
+      transition: border-color 0.2s ease, color 0.2s ease;
+    }
+
+    .contact-link:hover,
+    .contact-link:focus-visible {
+      border-bottom-color: var(--text);
+      color: var(--text);
+      outline: none;
+    }
+
+    .app-name {
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <p class="badge">Legal</p>
+      <h1><span class="app-name">マジックトーク</span><br>プライバシーポリシー・利用規約</h1>
+      <p class="lede">
+        本ページは、iOS アプリケーション「マジックトーク」（以下「本アプリ」）の利用に関する方針と条件をまとめたものです。
+      </p>
+    </header>
+
+    <section id="privacy" aria-labelledby="privacy-heading">
+      <h2 id="privacy-heading">プライバシーポリシー</h2>
+
+      <h3>1. 収集する情報について</h3>
+      <p>本アプリの運営者は、本アプリを通じて<strong>お名前・住所・メールアドレス・電話番号など、個人を特定しうる情報を収集・保存しません</strong>。本アプリ内で作成・登録された友達情報、メッセージ、トーク履歴等のデータは、すべてユーザーの端末内（SwiftData等）にのみ保存され、運営者が外部サーバー等で取得・管理することはありません。</p>
+
+      <h3>2. 通知機能について</h3>
+      <p>本アプリでは、メッセージの送信や予約送信（タイマー通知）を行うために、OSのローカル通知機能を利用しています。通知の送受信データは端末内で完結しており、外部へ送信されることはありません。</p>
+
+      <h3>3. 広告（Google AdMob）について</h3>
+      <p>本アプリでは、Google LLC が提供する広告配信サービス <strong>Google AdMob</strong> を利用して広告を表示する場合があります。</p>
+      <p>AdMob は、広告の配信・効果測定のため、広告 ID や端末・利用状況に関する情報を取得することがあります。これらは個人を特定するものではありません。詳細は <a href="https://policies.google.com/privacy?hl=ja" rel="noopener noreferrer" target="_blank">Google のプライバシーポリシー</a> をご確認ください。</p>
+
+      <h3>4. 第三者サービス</h3>
+      <p>本アプリが連携する広告等の第三者サービスが、独自のプライバシーポリシーに従い情報を扱う場合があります。各サービス提供元が公表する内容を参照してください。</p>
+
+      <h3>5. お問い合わせ</h3>
+      <p>本ポリシーに関するご質問は、ページ末尾のお問い合わせフォームよりご連絡ください。</p>
+
+      <h3>6. 変更</h3>
+      <p>法令の改正やサービス内容の変更に応じ、本ポリシーを随時更新することがあります。</p>
+    </section>
+
+    <section id="terms" aria-labelledby="terms-heading">
+      <h2 id="terms-heading">利用規約</h2>
+
+      <h3>第1条（適用）</h3>
+      <p>本規約は、ユーザーと本アプリ運営者との間における本アプリの利用条件を定めるものです。ユーザーは、本アプリを利用することで本規約に同意したものとみなされます。</p>
+
+      <h3>第2条（Apple 標準利用規約との関係）</h3>
+      <p>本アプリは Apple の App Store を通じて提供されます。本規約に加え、Apple Inc. が定める標準利用規約（EULA）にも準拠するものとし、矛盾がある場合は Apple の規約が優先されるものとします。</p>
+
+      <h3>第3条（利用環境）</h3>
+      <p>本アプリの利用に必要な通信環境、端末の準備、および通知設定等は、ユーザーの責任と負担において行うものとします。</p>
+
+      <h3>第4条（禁止事項）</h3>
+      <p>ユーザーは、以下の行為をしてはなりません。</p>
+      <ul>
+        <li>法令または公序良俗に違反する行為</li>
+        <li>本アプリの運営を妨害する行為、または不正アクセス・改ざん等の行為</li>
+        <li>他者の知的財産権を侵害する態様での利用</li>
+        <li>その他、運営者が不適切と判断する行為</li>
+      </ul>
+
+      <h3>第5条（知的財産権）</h3>
+      <p>本アプリに関する著作権等の知的財産権は、運営者または正当な権利者に帰属します。ユーザーが本アプリで登録・作成したメッセージやキャラクター設定等のコンテンツの管理は、ユーザー自身の責任において行うものとします。</p>
+
+      <h3>第6条（免責事項）</h3>
+      <p><strong>運営者は、本アプリの正確性、完全性、不具合がないこと、および通知機能が遅延なく動作することについて保証しません。本アプリの利用または利用不能により生じた損害について、運営者に故意または重過失がある場合を除き、一切の責任を負いません。</strong></p>
+
+      <h3>第7条（規約の変更）</h3>
+      <p>運営者は、必要に応じて本規約をいつでも変更できるものとします。変更後の規約は、本ページに掲載した時点から効力を生じます。</p>
+
+      <h3>第8条（準拠法・管轄）</h3>
+      <p>本規約は日本法を準拠法とし、本アプリに関する紛争については、運営者の所在地を管轄する裁判所を専属的合意管轄とします。</p>
+    </section>
+
+    <p class="meta">最終更新日：2026年9月10日</p>
+
+    <footer>
+      <p>お問い合わせはこちら</p>
+      <a class="contact-link" https://forms.gle/K1r8sgX1Ve6WP6qZ8" rel="noopener noreferrer" target="_blank">Google フォームで連絡する</a>
+    </footer>
+  </div>
+</body>
+</html>
